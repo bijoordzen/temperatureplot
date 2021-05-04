@@ -9,6 +9,7 @@ q = (df['date and time'])
 a = p[:50]
 b = q[:50]
 app = dash.Dash()
+server = app.server
 
 app.layout = html.Div([html.H1("Team B"),
 			 html.Div("Sensor Plots"),
